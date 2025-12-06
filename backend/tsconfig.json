@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    /* Target & Module */
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext", 
+    
+    /* Strictness */
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+
+    /* Output */
+    "outDir": "dist",
+    "rootDir": "./src",
+
+    /* Paths - Notice baseUrl is gone */
+    "paths": {
+      "@/*": ["./src/*"]       /* explicitly add './' to point to the root relative path */
+    }
+  },
+  "include": ["src/**/*"]
+}

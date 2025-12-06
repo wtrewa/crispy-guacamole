@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+
+:root{ --bg:#f6f8fb; --panel:#fff; --accent:#4f46e5 }
+*{box-sizing:border-box}
+html,body,#__next{height:100%}
+body{margin:0;font-family:Inter, system-ui, Arial;background:var(--bg)}
+
+.app-root{display:grid;grid-template-columns:260px 1fr 360px;height:100vh}
+.sidebar{background:var(--panel);padding:16px;border-right:1px solid #e6e9ef}
+.canvas-wrap{padding:12px}
+.sim-panel{background:var(--panel);padding:12px;border-left:1px solid #e6e9ef}
+.node-card{padding:10px;border-radius:8px;background:#fff;border:1px solid #e6e9ef;margin-bottom:8px}
+.node-form{padding:12px;background:#fff;border-radius:8px;box-shadow:0 6px 18px rgba(16,24,40,0.04)}
+button{cursor:pointer}
