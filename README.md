@@ -175,13 +175,7 @@ BFS traversal to determine execution sequence
 
 Generate a step-by-step execution log
 
-This design reflects real workflow engines like:
 
-Camunda
-
-Airflow
-
-Temporal
 
 ✅ 7. Component Architecture
 Canvas Layer
